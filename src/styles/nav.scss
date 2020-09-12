@@ -1,0 +1,57 @@
+.nav-container {
+  .nav-flex-container {
+    .nav-inner-container {
+      width: 100%;
+      background-color: black;
+      .nav-grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        list-style: none;
+        padding: 20px;
+        
+        p {
+          display: flex;
+          justify-content: center;
+          height: 100%;
+        }
+
+        li {
+          margin: 5px;
+          cursor: pointer;
+        }
+        
+        li:hover {
+          background: black;
+          color: white;
+          border: 1px solid white;
+        }
+        
+        .nav-home {
+          transform: skew(20deg);
+          background: rgb(255, 255, 255);
+        }
+        .home:focus {
+          color: red;
+        }
+        .nav-project {
+          transform: skew(20deg);
+          background: rgb(255, 255, 255);
+        }
+        .nav-blog {
+          transform: skew(20deg);
+          background: rgb(255, 255, 255);
+        }
+        .nav-about {
+          transform: skew(20deg);
+          background: rgb(255, 255, 255);
+        }
+
+        li:active {
+          background-color: #666;
+          color: white;
+        }
+        
+      }
+    }
+  }
+}

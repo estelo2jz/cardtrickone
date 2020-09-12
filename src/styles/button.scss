@@ -1,0 +1,93 @@
+.button-container {
+  width: 100%;
+}
+.button-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  width: 100%;
+}
+.button-one, 
+.button-two, 
+.button-three,
+.button-four,
+.button-five,
+.button-six {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+}
+p {
+  cursor: pointer;
+}
+.button-one p {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 8px 6px -6px black;
+  border: none;
+
+}
+.button-one p:active {
+  background-color: rgb(172, 175, 175);
+  border-color: red;
+  padding: 10px;
+  box-shadow: 0 5px #666;
+}
+
+.button-two p {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 8px 6px -6px black;
+
+
+}
+.button-three p {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 8px 6px -6px black;
+
+
+}
+.button-four p {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 8px 6px -6px black;
+
+}
+.button-five p {
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 8px 6px -6px black;
+
+}
+.button-six p {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0 8px 6px -6px black;
+
+}

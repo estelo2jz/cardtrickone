@@ -1,0 +1,76 @@
+.cardtwo-outer-container {
+}
+
+.cardtwo-grid-container {
+  display: grid;
+  grid-template-columns:repeat(auto-fill, 200px);
+  height: 100vh;
+}
+ 
+.cardtwo-one-container,
+.cardtwo-two-container,
+.cardtwo-three-container,
+.cardtwo-four-container {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+// card one
+.cardtwo-one-container {
+  background: rgb(226, 141, 141);
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.cardtwo-one-back {
+  position: absolute;
+  background: rgb(173, 54, 54);
+}
+.cardtwo-one-front {
+  position: absolute;
+  background: red;
+}
+.cardtwo-one-front:hover {
+  position: absolute;
+  background: green;
+  height: 100px;
+}
+// card two
+.cardtwo-two-container {
+  background: rgb(149, 153, 128);
+}
+.cardtwo-two-back {
+  position: relative;
+  background: rgb(173, 54, 54);
+}
+.cardtwo-two-front {
+  background: rgb(106, 235, 32);
+}
+// card three
+.cardtwo-three-container {
+  background: rgb(186, 238, 151);
+}
+.cardtwo-three-back {
+  position: relative;
+  background: rgb(173, 54, 54);
+}
+.cardtwo-three-front {
+  background: rgb(49, 62, 235);
+}
+// card four
+.cardtwo-four-container {
+  background: rgb(145, 230, 241);
+}
+.cardtwo-four-back {
+  position: relative;
+  background: rgb(173, 54, 54);
+}
+.cardtwo-four-front {
+  background: rgb(233, 60, 118);
+}
